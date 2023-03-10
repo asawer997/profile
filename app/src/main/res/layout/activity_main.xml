@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin16"
+        android:background="@drawable/background">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="@dimen/layout93"
+            android:layout_height="@dimen/layout93"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/margin12"
+            android:src="@drawable/image"
+            app:shapeAppearanceOverlay="@style/CardView" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/margin12"
+            android:layout_marginEnd="@dimen/margin8"
+            android:layout_marginBottom="@dimen/margin12"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin8"
+
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:lines="1"
+                    android:text="@string/Ahmed_hassan"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sizetext16" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin8"
+
+                    android:text="@string/Engineer"
+                    android:textColor="#DE122940"
+                    android:textSize="@dimen/sizetext12"
+                    app:fontFamily="@font/dm_sans_medium" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin8"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/layout10"
+                        android:layout_height="@dimen/layout10"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/margin4"
+                        android:src="@drawable/icon_location"
+                        android:contentDescription="@string/eg"
+                         />
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/eg"
+                        android:textColor="#99122940"
+                        android:textSize="13sp"
+                        app:fontFamily="@font/dm_sans_medium" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="@string/_150_reviews"
+                        android:textColor="@color/color_text"
+                        android:textSize="@dimen/sizetext12"
+                        app:fontFamily="@font/dm_sans_medium" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin8">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/margin4"
+
+                            android:text="@string/_4_5"
+                            android:textColor="@color/color_text"
+                            android:textSize="@dimen/sizetext12"
+                            app:fontFamily="@font/dm_sans_medium" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/layout12"
+                            android:layout_height="@dimen/layout12"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/icon_star"
+                            android:contentDescription="@string/_4_5" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin8"
+                    android:background="@drawable/hrbackground"
+
+                    android:paddingStart="8dp"
+                    android:paddingBottom="2dp"
+                    android:paddingEnd="@dimen/padding8"
+                    android:gravity="center"
+                    android:text="@string/_3_hr"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sizetext12" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin8"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/Russian"
+                    android:textColor="#DE122940"
+                    android:textSize="@dimen/sizetext12"
+                   />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/_5_days_ago"
+                    android:textColor="#61122940"
+                    android:textSize="@dimen/sizetext12" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
